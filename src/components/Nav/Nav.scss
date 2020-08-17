@@ -1,0 +1,26 @@
+@import "../../common/styles/allutils";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 1rem;
+  background-color: $DARK;
+
+  &__logo {
+    width: 6rem;
+    height: 100%;
+    overflow: hidden;
+
+    &-img {
+      height: inherit;
+    }
+  }
+  &__link {
+    display: flex;
+    &-item {
+      color: $LIGHT;
+    }
+  }
+}

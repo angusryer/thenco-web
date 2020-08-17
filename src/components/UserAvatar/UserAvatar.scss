@@ -1,0 +1,13 @@
+@import '../../common/styles/allutils';
+
+
+.avatar {
+  &__container {
+    height: 3rem;
+    width: 3rem;
+    &-img {
+      width: auto;
+      height: 100%;
+    }
+  }
+}
