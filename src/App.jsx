@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Landing, Detail, About } from "./pages";
 import { Nav, Footer } from "./components";
-import "./common/styles/base.scss";
+import './common/styles/base.scss';
 
 export default function App() {
   return (

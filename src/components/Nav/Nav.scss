@@ -1,16 +1,24 @@
 @import "../../common/styles/allutils";
 
 .nav {
+  position: fixed;
+  top:  0.5rem;
+  transform: translateX(-50%);
+  border-radius: 0.25rem;
+  border-top-left-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+  left: 50vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 95%;
   height: 5rem;
   padding: 1rem;
   background-color: $DARK;
 
   &__logo {
-    width: 6rem;
-    height: 100%;
+    width: auto;
+    height: 3rem;
     overflow: hidden;
 
     &-img {

@@ -17,7 +17,13 @@
   }
 }
 
-body {
+html, body, #root {
+  height: 100%;
+}
+
+body, #root {
+  display: flex;
+  flex-flow: column nowrap;
   background-color: white;
 }
 
