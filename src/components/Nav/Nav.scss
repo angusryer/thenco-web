@@ -16,6 +16,13 @@
   padding: 1rem;
   background-color: $DARK;
 
+    &__right {
+        width: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
   &__logo {
     width: auto;
     height: 3rem;
@@ -25,9 +32,10 @@
       height: inherit;
     }
   }
+  
   &__link {
     display: flex;
-    &-item {
+    &__link-item {
       color: $LIGHT;
     }
   }
