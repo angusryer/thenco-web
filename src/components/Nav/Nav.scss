@@ -3,11 +3,9 @@
 .nav {
   position: fixed;
   top:  0.5rem;
-  transform: translateX(-50%);
-  border-radius: 0.25rem;
-  border-top-left-radius: 2.5rem;
-  border-bottom-left-radius: 2.5rem;
   left: 50vw;
+  transform: translateX(-50%);
+  border-radius: 0.1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
