@@ -5,5 +5,6 @@ module.exports = {
       description: `thenco curates awesome and makes amazing`,
     },
     plugins: [
+      
       ],
   }
