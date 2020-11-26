@@ -1,7 +1,6 @@
 import React from "react";
-import './Footer.scss';
-import thencoLogoBlack from '../../common/assets/images/thenco-logo-black.png';
-import thencoLogoWhite from '../../common/assets/images/thenco-logo-white.jpg';
+import thencoLogoBlack from '../common/assets/images/thenco-logo-black.png';
+import thencoLogoWhite from '../common/assets/images/thenco-logo-white.jpg';
 
 const theme = {
   value: 'dark'
